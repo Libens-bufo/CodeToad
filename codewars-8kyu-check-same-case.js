@@ -4,7 +4,7 @@ function sameCase(a, b){
      }else if(a === a.toLowerCase() && b === b.toLowerCase() || a === a.toUpperCase() && b === b.toUpperCase()){
          return 1;
      }else{
-       return 0
+       return 0;
      }
    }
 
