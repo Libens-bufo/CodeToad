@@ -6,4 +6,4 @@ function removeChar(str){
    
    };
    
-///
+////
