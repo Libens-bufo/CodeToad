@@ -16,3 +16,6 @@ let theArray = [4,3,9,7,2,1];
 
 const SqRootorNo = theArray.map(arg1 => Number.isInteger(Math.sqrt(arg1)) ? Math.sqrt(arg1): arg1 * arg1);
 console.log(SqRootorNo);
+
+// 
+// 
