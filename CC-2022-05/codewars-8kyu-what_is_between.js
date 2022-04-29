@@ -5,3 +5,11 @@ function between(a, b) {
     }
       return arr;
   }
+
+  function between2(a, b) {
+    let arr = [];
+    for (let i = a; i <= b; i++){
+      arr.unshift(i)
+    }
+      return arr.reverse();
+  }
