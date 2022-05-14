@@ -4,3 +4,5 @@ function highAndLow(n){
     let s =  n.split(' ').sort((a,b) => a - b);
     return `${s[s.length - 1]} ${s[0]}`;
   }
+
+//
