@@ -7,5 +7,7 @@ function isEven(x){
    if ((isEven(flower1) && isEven(f2)) || (!isEven(flower1) && !isEven(f2))) return false;
     return true;
   }
-  
-  //overly verbose
+  //better solution
+  function lovefunc(f1, f2){
+    return f1 % 2 != f2 % 2;
+   }
