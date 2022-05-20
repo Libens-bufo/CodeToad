@@ -6,4 +6,4 @@ function XO(str) {
       if (x =='o') os += x;
     })
   return xs.length == os.length;
-}//
+}
